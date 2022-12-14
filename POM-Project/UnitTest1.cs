@@ -27,7 +27,7 @@ namespace POM_Project
             loginpage.sendCredential("admin", "password");
             loginpage.clickLogin();
 
-            Assert.That(homepage.LogoffExists(), Is.True, "Log Off button not displayed");
+            Assert.That(homepage.LogoffExists(), Is.True, "LOG OFF button not displayed");
         }
 
         [TearDown]
